@@ -1,0 +1,16 @@
+.MuiContainer-root {
+    margin-top: 9vh;
+}
+
+#logo {
+    margin: auto;
+    width: 150px;
+    height: 130px;
+    background-position: center;
+    background-image: url('../../images/icon.ico');
+}
+
+#submit {
+    margin: 3vh 0 3vh 0;
+    background-color: rgb(18, 130, 196);
+}
