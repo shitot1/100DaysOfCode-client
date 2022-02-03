@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { Container, TextField, Button, Typography, Box, Link } from '@material-ui/core';
-import './RegisterStyle.css';
-
+import styles from './RegisterForm.module.css';
 
 const RegisterForm = () => {
     const navigate = useNavigate();
@@ -32,14 +31,14 @@ const RegisterForm = () => {
 
     return (
 
-        <Container component="main" maxWidth="xs" >
-            <section id="logo"></section>
-            <Typography component="h1" variant="h4" style={{ textAlign: 'center' }}>Sign up</Typography>
+        <Container component="main" maxWidth="xs" className={styles.container}>
+            <section className={styles.logo}></section>
+            <Typography component="h1" variant="h4" className={styles.signupText}>Sign up</Typography>
             <Box component="form" onSubmit={registerUser} noValidate sx={{ mt: 1 }}>
                 <TextField id="outlined-basic" label="Full Name" variant="outlined" value={name} onChange={(e) => setName(e.target.value)} fullWidth required margin="normal" autoFocus />
                 <TextField id="outlined-basic" label="Email Address" variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)} fullWidth required margin="normal" autoComplete="email" />
                 <TextField id="outlined-basic" label="Password" variant="outlined" value={password} onChange={(e) => setPassword(e.target.value)} fullWidth required margin="normal" autoComplete="current-password" />
-                <Button variant="contained" color="primary" type="submit" value="Login" fullWidth sx={{ mt: 3, mb: 2 }} id="submit">
+                <Button variant="contained" color="primary" type="submit" value="Login" fullWidth sx={{ mt: 3, mb: 2 }} id={styles.submit}>
                     Sign UP
                 </Button>
                 <Link href="/login" variant="body2" id="link">
