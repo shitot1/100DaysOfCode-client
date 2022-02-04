@@ -1,7 +1,6 @@
 
 import "./home.css"
 import me from "../images/new16.png"
-import { Link } from "react-router-dom";
 const Home = () => {
     return (
 
@@ -29,10 +28,10 @@ const Home = () => {
                 <img src={me} alt="" class="i-img"></img>
                 <div className="buttons">
                     <div className="item">
-                        <a href="./register" style={{textDecoration: 'none'}}><button className="btn-in">Sign up</button></a>
+                        <a href="./register" style={{ textDecoration: 'none' }}><button className="btn-in">Sign up</button></a>
                     </div>
                     <div className="item">
-                        <a href="./login" style={{textDecoration: 'none'}}> <button className="btn-up">Log in</button></a>
+                        <a href="./login" style={{ textDecoration: 'none' }}> <button className="btn-up">Log in</button></a>
                     </div>
 
 
