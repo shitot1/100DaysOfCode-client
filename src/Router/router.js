@@ -4,7 +4,8 @@ import Dashboard from '../Pages/Dashboard';
 import Login from '../Pages/Login';
 import Register from '../Pages/Register';
 import NotFound from '../Pages/NotFound'
-import  Home  from '../Pages/Home';
+import Home from '../Pages/Home';
+import Playground from '../Pages/Playground';
 
 const ReactRouter = () => {
     return (
@@ -13,6 +14,7 @@ const ReactRouter = () => {
             <Route exact path="/login" element={<Login />} />
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/dashboard" element={<Dashboard />} />
+            <Route exact path="/playground" element={<Playground />} />
             <Route path="/*" element={<NotFound />} />
         </Routes>
     )

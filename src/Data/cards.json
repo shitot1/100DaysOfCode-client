@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img": "../../static/surf.jpeg",
+        "subtitle": "Stage 1",
+        "text": ""
+    },
+    {
+        "id": 2,
+        "img": "../../static/flag.jpeg",
+        "subtitle": "Stage 2",
+        "text": ""
+    },
+    {
+        "id": 3,
+        "img": "../../static/golf.jpeg",
+        "subtitle": "Stage 3",
+        "text": ""
+    },
+    {
+        "id": 4,
+        "img": "../../static/misperet.jpeg",
+        "subtitle": "Stage 4",
+        "text": ""
+    },
+    {
+        "id": 5,
+        "img": "../../static/moo.jpeg",
+        "subtitle": "Stage 5",
+        "text": ""
+    },
+    {
+        "id": 6,
+        "img": "../../static/moon.jpeg",
+        "subtitle": "Stage 6",
+        "text": ""
+    },
+    {
+        "id": 7,
+        "img": "../../static/rocket.jpeg",
+        "subtitle": "Stage 7",
+        "text": ""
+    },
+    {
+        "id": 8,
+        "img": "../../static/broom.jpeg",
+        "subtitle": "Stage 8",
+        "text": ""
+    },
+    {
+        "id": 9,
+        "img": "../../static/star.jpeg",
+        "subtitle": "Stage 9",
+        "text": ""
+    }
+]

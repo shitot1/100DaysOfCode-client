@@ -1,19 +1,14 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import jwt from "jsonwebtoken";
 import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
     const navigate = useNavigate();
-    const tempNavigate = useRef();
-    tempNavigate.current = navigate('/login');
-
-
     const logoutUser = () => {
         localStorage.removeItem('token');
         navigate('/login')
     }
-
-
+    
     useEffect(() => {
         const token = localStorage.getItem('token')
         if (token) {
@@ -28,9 +23,14 @@ const Dashboard = () => {
             navigate('/login')
         }
     }, []);
+
+
+
+
     return (
         <>
             <h1>Dashboard</h1>
+            <a href="./playground">playground</a>
             <div onClick={logoutUser}>logout</div>
         </>
     );

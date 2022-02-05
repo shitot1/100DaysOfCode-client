@@ -25,6 +25,7 @@ const LoginForm = () => {
 
         if (data.token) {
             localStorage.setItem('token', data.token);
+            localStorage.setItem('id', data.id);
             navigate('/dashboard');
         } else {
             alert('Please check your username and password')
@@ -36,8 +37,8 @@ const LoginForm = () => {
             <section className={styles.logo}></section>
             <Typography component="h1" variant="h4" className={styles.signinText} >Sign in</Typography>
             <Box component="form" onSubmit={loginUser} noValidate sx={{ mt: 1 }}>
-                <TextField id="outlined-basic" label="Email Address" variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)} fullWidth required margin="normal" autoComplete="email" autoFocus />
-                <TextField id="outlined-basic" label="Password" variant="outlined" value={password} onChange={(e) => setPassword(e.target.value)} fullWidth required margin="normal" autoComplete="current-password" />
+                <TextField id="outlined-basic" type="email" label="Email Address" variant="outlined" value={email} onChange={(e) => setEmail(e.target.value)} fullWidth required margin="normal" autoComplete="email" autoFocus />
+                <TextField id="outlined-basic" type="password" label="Password" variant="outlined" value={password} onChange={(e) => setPassword(e.target.value)} fullWidth required margin="normal" autoComplete="current-password" />
                 <FormControlLabel
                     control={<Checkbox value="remember" color="primary" />}
                     label="Remember me"
