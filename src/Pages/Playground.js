@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import jwt from "jsonwebtoken";
 import { useNavigate } from 'react-router-dom';
 import GameCard from "../Components/GameCard/GameCard";
-
+import { Typography } from '@material-ui/core';
+import SideBar from '../Components/Sidebar/Sidebar'
 const Playground = () => {
     const navigate = useNavigate();
 
@@ -19,23 +20,6 @@ const Playground = () => {
         }
     }, []);
 
-    // const [date1, setDate1] = useState(true);
-    // const [date2, setDate2] = useState(true);
-    // const [date3, setDate3] = useState(true);
-    // const [date4, setDate4] = useState(true);
-    // const [date5, setDate5] = useState(true);
-    // let d = 1644007673
-    // let dateNow = Date.parse(new Date()) / 1000
-    // useEffect(() => {
-    //     if (dateNow - d > 500) { setDate1(false) }
-    //     if (dateNow - d > 3060) { setDate2(false) }
-    //     if (dateNow - d > 3260) { setDate3(false) }
-    //     if (dateNow - d > 3290) { setDate4(false) }
-    //     if (dateNow - d > 5300) { setDate5(false) }
-    // }, []);
-
-
-
 
 
 
@@ -43,7 +27,11 @@ const Playground = () => {
 
 
     return (
-        <GameCard />
+        <>
+            <Typography variant='h2' align="center" style={{ marginBottom: '5vh', marginTop: '2vh' }}> User's playGround</Typography>
+            <SideBar />
+            <GameCard />
+        </>
     );
 }
 

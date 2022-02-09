@@ -1,0 +1,137 @@
+[
+    {
+        "id": 31,
+        "question": "What is the correct precedence of the operator in javascript",
+        "answer_a": "() [] . ++",
+        "answer_b": "++ . [] ()",
+        "answer_c": ". ++ [] ()",
+        "answer_d": "() ++ . [",
+        "correct_answer": "c"
+    },
+    {
+        "id": 32,
+        "question": "What will be the output of the following code snippet let gfg = ”GeeksforGeeks” console.log(gfg.charAt(4))",
+        "answer_a": "o",
+        "answer_b": "f",
+        "answer_c": "k",
+        "answer_d": "s",
+        "correct_answer": "f"
+    },
+    {
+        "id": 33,
+        "question": "Which of the following represent falsy values in javascript",
+        "answer_a": "false",
+        "answer_b": "' '",
+        "answer_c": "undefined",
+        "answer_d": "All of the above",
+        "correct_answer": "d"
+    },
+    {
+        "id": 34,
+        "question": "Which of the following represent truthy values in javascript",
+        "answer_a": "true",
+        "answer_b": "{}",
+        "answer_c": "[]",
+        "answer_d": "All of the above",
+        "correct_answer": "a"
+    },
+    {
+        "id": 35,
+        "question": "The advantages of using strict mode in javascript are",
+        "answer_a": "Strict mode eliminates some JavaScript silent errors by changing them to throw errors.",
+        "answer_b": "It disables features that are confusing or poorly thought out.",
+        "answer_c": "Strict mode makes it easier to write “secure” JavaScript.",
+        "answer_d": "All of the above",
+        "correct_answer": "d"
+    },
+    {
+        "id": 36,
+        "question": "What is the type of variable data declare below const data=[]",
+        "answer_a": "Array",
+        "answer_b": "object",
+        "answer_c": "string",
+        "answer_d": "None of the above",
+        "correct_answer": "a"
+    },
+    {
+        "id": 37,
+        "question": "Which of the following represents loops in javascript",
+        "answer_a": "for",
+        "answer_b": "while",
+        "answer_c": "forEach",
+        "answer_d": "All of the above",
+        "correct_answer": "d"
+    },
+    {
+        "id": 38,
+        "question": "An object is an unordered collection of ___.",
+        "answer_a": "values",
+        "answer_b": "names",
+        "answer_c": "Properties",
+        "answer_d": "All of the above",
+        "correct_answer": "c"
+    },
+    {
+        "id": 39,
+        "question": "What is the role of break keyword inside a loop",
+        "answer_a": "Restart the loop",
+        "answer_b": "Move out of the loop",
+        "answer_c": "Ignore the rest of the statements below it and continue the loop",
+        "answer_d": "None of the above",
+        "correct_answer": "b"
+    },
+    {
+        "id": 40,
+        "question": "The code snippet described below represents const {name,value,id}= data",
+        "answer_a": "Destructuring in an object",
+        "answer_b": "Destructuring in an array",
+        "answer_c": "Can be both destructuring in array or object",
+        "answer_d": "None of the above",
+        "correct_answer": "c"
+    },
+    {
+        "id": 41,
+        "question": "What is the function of spread(...) operator in javascript",
+        "answer_a": "Allows an iterable to be expanded to be expanded in places where 0 or more arguments/key-value pairs are expected",
+        "answer_b": "Make spaces in the beginning of a sentence",
+        "answer_c": "Create substring of a string",
+        "answer_d": "All of the above",
+        "correct_answer": "a"
+    },
+    {
+        "id": 42,
+        "question": "Which of the two operator have the same syntax of writing",
+        "answer_a": "Increment and spread operator",
+        "answer_b": "Spread operator and rest parameter",
+        "answer_c": "Rest parameter and increment operator",
+        "answer_d": "None of the above",
+        "correct_answer": "b"
+    },
+    {
+        "id": 43,
+        "question": "What is the function of the bind method",
+        "answer_a": "bind an object to a common function, so that the function gives different result when its need",
+        "answer_b": "Bind two different objects into one",
+        "answer_c": "Both a and b",
+        "answer_d": "None of the above",
+        "correct_answer": "d"
+    },
+    {
+        "id": 44,
+        "question": "Which of the following is a window event",
+        "answer_a": "Focus and blur event",
+        "answer_b": "Onclick events",
+        "answer_c": "Both a and b",
+        "answer_d": "None of the above",
+        "correct_answer": "c"
+    },
+    {
+        "id": 45,
+        "question": "Select the correct among the following for linking an external style sheet.",
+        "answer_a": "<link rel=“stylesheet” type=“text/css” href=“style.css”>",
+        "answer_b": "<style rel=“stylesheet” type=“text/css” href=“style.css”>",
+        "answer_c": "<link>stylesheet",
+        "answer_d": "<link href=“style.css”>stylesheet",
+        "correct_answer": "b"
+    }
+]
