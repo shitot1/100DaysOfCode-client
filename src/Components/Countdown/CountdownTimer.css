@@ -1,0 +1,33 @@
+
+
+.CountdownTimer{
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+ .countdown-timer{
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+    font-size: 30px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+} 
+
+
+.countdown-timer span {
+    margin-left: 7px;
+    margin-left: 7px ;
+}
+
+.two-numbers {
+    width: 2ch;
+}

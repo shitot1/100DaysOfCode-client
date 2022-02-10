@@ -9,7 +9,7 @@ const Playgrounds = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/playgrounds')
+        fetch('https://meadaysofcode.herokuapp.com/api/users/playgrounds')
             .then(res => {
                 return res.json();
             })

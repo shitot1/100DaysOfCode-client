@@ -23,7 +23,7 @@ function PracticeGame() {
     const [questions, setQuestions] = useState([1]);
     const cardNumber = localStorage.getItem('card');
     useEffect(() => {
-        fetch('http://localhost:3001/api/questions')
+        fetch('https://meadaysofcode.herokuapp.com/api/questions')
             .then(res => {
                 return res.json();
             })

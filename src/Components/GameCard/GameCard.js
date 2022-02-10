@@ -14,7 +14,7 @@ const GameCard = () => {
     const [locked9, setLocked9] = useState(true);
 
     useEffect(() => {
-        fetch(`http://localhost:3001/api/users/${localStorage.getItem('id')}`)
+        fetch(`https://meadaysofcode.herokuapp.com/api/users/${localStorage.getItem('id')}`)
             .then(res => {
                 return res.json();
             })
